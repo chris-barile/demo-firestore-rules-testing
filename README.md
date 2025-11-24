@@ -2,7 +2,7 @@
 
 This project is a demo on how to set up tests for developing and verifying your Firestore security rules. This repo was written as a companion to the [Testing Firestore security rules without touching production](https://allthingsopen.org/articles/testing-firestore-security-rules-without-production) article I contributed to We ❤️ Open Source.
 
-The main point of interest here is the `rules_testing\tests\messages.spec.js`, which shows how the (@firebase/rules-unit-testing)[https://www.npmjs.com/package/@firebase/rules-unit-testing] npm module can be used to verify and develop Firestore security rules. This test file shows how to:
+The main point of interest here is the `rules_testing\tests\messages.spec.js`, which shows how the [@firebase/rules-unit-testing](https://www.npmjs.com/package/@firebase/rules-unit-testing) npm module can be used to verify and develop Firestore security rules. This test file shows how to:
 - Set up the testing environment
 - Add data
 - Run tests as authenticated or unauthenticated users
